@@ -31,6 +31,21 @@ Using our visualization in combination with our calculated p-value and r-squared
 
 Although the relationship between both variables is statistically significant, this linear model is not ideal. According to the calculated r-squared value, using only vehicle_weight to predict miles per gallon is roughly as accurate as guessing using a coin toss. In other words, the variability we observed within our mpg data must come from multiple sources of variance. To accurately predict future mpg observations, we need to use a more robust model.
 
+## Summary Statistics on Suspension Coils
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+
+
+
+
+
+
+
+
+
+
+
 There are a number of metrics produced from the t.test()function, but for now we will only concern ourselves with the calculated p-value. Assuming our significance level was the common 0.05 percent, our p-value is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.Due to random sampling, your sample dataset may differ from our example and thus your calculations may be different. Therefore, you'll need to compare your calculated p-value to your own significance level. If your p-value is lower than the significance level, you would have sufficient evidence to reject the null hypothesis and state that the two means are statistically different.
 
 Due to random sampling, your sample dataset may differ from our example and thus your calculations may be different. Therefore, you'll need to compare your calculated p-value to your own significance level. If your p-value is lower than the significance level, you would have sufficient evidence to reject the null hypothesis and state that the two means are statistically different.
