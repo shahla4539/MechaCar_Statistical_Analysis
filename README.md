@@ -32,6 +32,16 @@ Using our visualization in combination with our calculated p-value and r-squared
 Although the relationship between both variables is statistically significant, this linear model is not ideal. According to the calculated r-squared value, using only vehicle_weight to predict miles per gallon is roughly as accurate as guessing using a coin toss. In other words, the variability we observed within our mpg data must come from multiple sources of variance. To accurately predict future mpg observations, we need to use a more robust model.
 
 ## Summary Statistics on Suspension Coils
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. The current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+
+### total summary
+![image](https://user-images.githubusercontent.com/105535250/195501858-d5de42a5-e03c-4445-8a0d-1a12de7bf49f.png)
+
+### lot summary
+![image](https://user-images.githubusercontent.com/105535250/195501988-e21f701b-382c-4ae1-8389-08f434834e89.png)
+
+
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
