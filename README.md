@@ -38,10 +38,11 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ### total summary
 ![image](https://user-images.githubusercontent.com/105535250/195501858-d5de42a5-e03c-4445-8a0d-1a12de7bf49f.png)
 
-The current manufacturing data meet this design specification for all manufacturing lots in total lot summary. Why or why not?
+The current manufacturing data meet this design specification for all manufacturing lots in total lot summary because this variance is based on a over all large data which proves that majority of the lots did meet the specification.
 
 ### lot summary
 ![image](https://user-images.githubusercontent.com/105535250/195501988-e21f701b-382c-4ae1-8389-08f434834e89.png)
+
 
 
 
