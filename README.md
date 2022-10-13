@@ -21,6 +21,9 @@ If there is no significant linear relationship, each dependent value would be de
 From our linear regression model, the r-squared value is 0.008223, which means that roughly 0.82% of the variablilty of our dependent variable (mpg) is explained using this linear model. Compared to the Pearson correlation coefficient between mpg and vehicle_weight of 0.09, we can confirm that our r-squared value is approximately the square of our r-value. 
 In addition, the p-value of our linear regression analysis is 0.5311, which is much bigger than our assumed significance level of 0.05%. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
 
+![image](https://user-images.githubusercontent.com/105535250/195498801-b62d77b4-678c-41ae-ab5e-35d21f132023.png)
+
+
 ### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 In a simple linear regression model, the higher the correlation is between two variables, the more that one variable can explain/predict the value of the other. As been calculated above our correlation value is 0.09. Also from our linear regression model, the r-squared value is 0.008223, which means that roughly 0.82% of the variablilty of our dependent variable (mpg) is explained using this linear model.
