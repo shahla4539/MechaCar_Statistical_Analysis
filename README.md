@@ -12,6 +12,9 @@ linear regression can be used as an extension of correlation analysis. In contra
 
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
+![image](https://user-images.githubusercontent.com/105535250/195490384-d62462b1-c82c-4fec-b866-14125528f89f.png)
+
+
 Is the slope of the linear model considered to be zero? Why or why not?
 
 linear regression tests the following hypotheses:
