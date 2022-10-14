@@ -45,6 +45,13 @@ The current manufacturing data meet this design specification for all manufactur
 
 This summary is based on individual lots. For lot1 and lot2 the specification were met but according to the results lot3 has a variance 170 which did not meet the criteria of keeping the variance upto 100 pounds per square inch.
 
+## T-Tests on Suspension Coils
+we can use the one-sample t-test to assert the similarities or differences in our data.the t.test()function should produce our test statistic "t" along with our p-value, which we can use to evaluate our null hypothesis.
+
+![image](https://user-images.githubusercontent.com/105535250/195765495-7c24abf3-1789-40a9-b2f5-df638e394b48.png)
+
+There are a number of metrics produced from the t.test()function, but for now we will only concern ourselves with the calculated p-value. Assuming our significance level was the common 0.05 percent, our p-value is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+
 
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
