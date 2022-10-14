@@ -41,19 +41,27 @@ The design specifications for the MechaCar suspension coils dictate that the var
 The current manufacturing data meet this design specification for all manufacturing lots in total lot summary because this variance is based on a over all large data which proves that majority of the lots did meet the specification.
 
 ### lot summary
+
 ![image](https://user-images.githubusercontent.com/105535250/195501988-e21f701b-382c-4ae1-8389-08f434834e89.png)
 
 This summary is based on individual lots. For lot1 and lot2 the specification were met but according to the results lot3 has a variance 170 which did not meet the criteria of keeping the variance upto 100 pounds per square inch.
 
 ## T-Tests on Suspension Coils
-we can use the one-sample t-test to assert the similarities or differences in our data.the t.test()function should produce our test statistic "t" along with our p-value, which we can use to evaluate our null hypothesis.
+We can use the one-sample t-test to assert the similarities or differences in our data.the t.test()function should produce our test statistic "t" along with our p-value, which we can use to evaluate our null hypothesis.
 
 ![image](https://user-images.githubusercontent.com/105535250/195765495-7c24abf3-1789-40a9-b2f5-df638e394b48.png)
 
 There are a number of metrics produced from the t.test()function, but for now we will only concern ourselves with the calculated p-value. Assuming our significance level was the common 0.05 percent, our p-value is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. If your p-value is lower than the significance level, you would have sufficient evidence to reject the null hypothesis and state that the two means are statistically different.
 
-## T-Tests on lot individually
+### T-Tests on lot individually
 
 ![image](https://user-images.githubusercontent.com/105535250/195766428-04843fcc-825a-428f-b58b-a90e165c03b0.png)
 
-The results are same for t-test individually on lots. The p-value is above our significance level 0.05 percent. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar
+The results are same for t-test individually on lots. The p-value is above our significance level 0.05 percent. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+
+## Study Design: MechaCar vs Competition
+
+2) We will be testing mpg of mechacar against the competitor.  
+3) In order to compare mechacar mpg to our competitor we will be using a t-test to check if there is a statistical difference between the average mpg of our competitor and mechacar. The null hypothesis is that there is no statistical difference. To run this analysis we need data from all mechacar car mpg's and the mean mpg of our competitor's cars
+
+
