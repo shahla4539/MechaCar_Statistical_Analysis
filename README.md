@@ -61,7 +61,42 @@ The results are same for t-test individually on lots. The p-value is above our s
 
 ## Study Design: MechaCar vs Competition
 
-2) We will be testing mpg of mechacar against the competitor.  
-3) In order to compare mechacar mpg to our competitor we will be using a t-test to check if there is a statistical difference between the average mpg of our competitor and mechacar. The null hypothesis is that there is no statistical difference. To run this analysis we need data from all mechacar car mpg's and the mean mpg of our competitor's cars
+1) We will be testing mpg of mechacar against the competitor.  
+2) In order to compare mechacar mpg to our competitor we will be using a t-test to check if there is a statistical difference between the average mpg of our competitor and mechacar. The null hypothesis is that there is no statistical difference. 
+3)To run this analysis we need data from all mechacar car mpg's and the mean mpg of our competitor's cars
+
+We will be testing mpg of mechacar against the competitor.
+In statistics, we use a t-test to compare the mean of one dataset to another under a few assumptions.
+The one-sample t-test will be used to determine whether there is a statistical difference between the means of a mechacar dataset and a hypothesized, competitor dataset. In other words, a one-sample t-test is used to test the following hypotheses:
+
+H0 : There is no statistical difference between the observed sample mean and its presumed population mean.
+Ha : There is a statistical difference between the observed sample mean and its presumed population mean.
+
+We can also use a one-sided t-test by changing our alternative hypothesis to state that our sample mean is significantly less or significantly more than our presumed population mean.
+
+To run this analysis we need data from all mechacar car mpg's and the mean mpg of our competitor's cars
+Before we can apply any statistical test to our data, we must check if there are any assumptions regarding our input dataset. When it comes to our one-sample t-test there are five assumptions about our input data:
+
+* The input data is numerical and continuous. This is because we are testing the distribution of two datasets.
+* The sample data was selected randomly from its population data.
+* The input data is considered to be normally distributed.
+* The sample size is reasonably large. Generally speaking, this means that the sample data distribution should be similar to its population data distribution.
+* The variance of the input data should be very similar.
+As long as our input data satisfies (or mostly satisfies) the above assumptions, we can use the one-sample t-test to assert the similarities or differences in our data.
+
+To use the t.test()function to perform our one-sample t-test, we have to use a few arguments:
+
+* *x*  is the numeric vector of sample data.
+* *mu* is the calculated mean of the population data.
+* *alternative* tells the t.test() function if the hypothesis is one-sided (one-tailed) or two-sided (two-tailed). The options for the alternative argument are “two.sided,” “less,” or “greater.” By default, the t.test() function assumes a two-sided t-test.
+
+By setting all three of these arguments, the t.test()function should produce our test statistic "t" along with our p-value, which we can use to evaluate our null hypothesis.
+
+For our study we want to test if the miles driven from our Mechacar dataset is statistically different from the miles driven in our Competitor data, we would use our t.test()function as follows:
+
+ #compare Mechacar versus Competitor means.
+>t.test(log10(mechacar_table$mpg),mu=mean(log10(competitor_table$mpg)))
+
+We'll need to compare our calculated p-value to our significance level. If our p-value is lower than the significance level, we would have sufficient evidence to reject the null hypothesis and state that the two means are statistically different. Similarly if our 
 
 
