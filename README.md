@@ -70,6 +70,7 @@ In statistics, we use a t-test to compare the mean of one dataset to another und
 The one-sample t-test will be used to determine whether there is a statistical difference between the means of a mechacar dataset and a hypothesized, competitor dataset. In other words, a one-sample t-test is used to test the following hypotheses:
 
 H0 : There is no statistical difference between the observed sample mean and its presumed population mean.
+
 Ha : There is a statistical difference between the observed sample mean and its presumed population mean.
 
 We can also use a one-sided t-test by changing our alternative hypothesis to state that our sample mean is significantly less or significantly more than our presumed population mean.
@@ -82,6 +83,7 @@ Before we can apply any statistical test to our data, we must check if there are
 * The input data is considered to be normally distributed.
 * The sample size is reasonably large. Generally speaking, this means that the sample data distribution should be similar to its population data distribution.
 * The variance of the input data should be very similar.
+
 As long as our input data satisfies (or mostly satisfies) the above assumptions, we can use the one-sample t-test to assert the similarities or differences in our data.
 
 To use the t.test()function to perform our one-sample t-test, we have to use a few arguments:
@@ -92,11 +94,12 @@ To use the t.test()function to perform our one-sample t-test, we have to use a f
 
 By setting all three of these arguments, the t.test()function should produce our test statistic "t" along with our p-value, which we can use to evaluate our null hypothesis.
 
-For our study we want to test if the miles driven from our Mechacar dataset is statistically different from the miles driven in our Competitor data, we would use our t.test()function as follows:
+For our study we want to test if the miles per gallon from our Mechacar dataset is statistically different from the miles per gallon in our Competitor data, we would use our t.test()function as follows:
 
  #compare Mechacar versus Competitor means.
 >t.test(log10(mechacar_table$mpg),mu=mean(log10(competitor_table$mpg)))
 
-We'll need to compare our calculated p-value to our significance level. If our p-value is lower than the significance level, we would have sufficient evidence to reject the null hypothesis and state that the two means are statistically different. Similarly if our 
+There are a number of metrics produced from the t.test()function, but for now we will only concern ourselves with the calculated p-value. Assuming our significance level was the common 0.05 percent, if our p-value is above our significance level we would not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+On the other hand, If our p-value is lower than the significance level, we would have sufficient evidence to reject the null hypothesis and state that the two means are statistically different. 
 
 
