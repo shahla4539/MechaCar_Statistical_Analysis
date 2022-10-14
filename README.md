@@ -51,3 +51,9 @@ we can use the one-sample t-test to assert the similarities or differences in ou
 ![image](https://user-images.githubusercontent.com/105535250/195765495-7c24abf3-1789-40a9-b2f5-df638e394b48.png)
 
 There are a number of metrics produced from the t.test()function, but for now we will only concern ourselves with the calculated p-value. Assuming our significance level was the common 0.05 percent, our p-value is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. If your p-value is lower than the significance level, you would have sufficient evidence to reject the null hypothesis and state that the two means are statistically different.
+
+## T-Tests on lot individually
+
+![image](https://user-images.githubusercontent.com/105535250/195766428-04843fcc-825a-428f-b58b-a90e165c03b0.png)
+
+The results are same for t-test individually on lots. The p-value is above our significance level 0.05 percent. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar
