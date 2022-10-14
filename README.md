@@ -43,6 +43,7 @@ The current manufacturing data meet this design specification for all manufactur
 ### lot summary
 ![image](https://user-images.githubusercontent.com/105535250/195501988-e21f701b-382c-4ae1-8389-08f434834e89.png)
 
+This summary is based on individual lots. For lot1 and lot2 the specification were met but according to the results lot3 has a variance 170 which did not meet the criteria of keeping the variance upto 100 pounds per square inch.
 
 
 
