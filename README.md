@@ -14,7 +14,7 @@ linear regression tests the following hypotheses:
 * H0 : The slope of the linear model is zero, or m = 0
 * Ha : The slope of the linear model is not zero, or m ≠ 0
 
-If there is no significant linear relationship, each dependent value would be determined by random chance and error. Therefore, our linear model would be a flat line with a slope of 0. But in our case, as you can see in the image below our slope is not a flat line. The following image is an example of an positive correlation. When two variables are positively correlated, they move in the same direction. In other words, when the variable on the x-axis increases, the variable on the y-axis increases as well:
+If there is no significant linear relationship, each dependent value would be determined by random chance and error. Therefore, our linear model would be a flat line with a slope of 0. But in our case, as you can see in the image below our slope is not a flat line. We have created a graph where you can visualize the fitted line against our dataset using ggplot2. It is an example of an positive correlation. When two variables are positively correlated, they move in the same direction. In other words, when the variable on the x-axis increases, the variable on the y-axis increases as well:
 
 ![image](https://user-images.githubusercontent.com/105535250/195487022-7e769257-6cf4-4ca3-9fc7-0ec3bce2e84e.png)
 
