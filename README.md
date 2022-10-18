@@ -99,6 +99,7 @@ For our study we want to test if the miles per gallon from our Mechacar dataset 
 
 ### Metrics: p-value
 There are a number of metrics produced from the t.test()function, but for now we will only concern ourselves with the calculated p-value. Assuming our significance level was the common 0.05 percent, if our p-value is above our significance level we would not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
-On the other hand, If our p-value is lower than the significance level, we would have sufficient evidence to reject the null hypothesis and state that the two means are statistically different. 
+On the other hand, If our p-value is lower than the significance level, we would have sufficient evidence to reject the null hypothesis and state that the two means are statistically different.
+
 
 
